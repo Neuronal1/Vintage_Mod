@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "examplecontentmod",
+  "name": "FirstIanMod",
+  "authors": [
+    "Ian"
+  ],
+  "description": "Maybe some blocks and items?",
+  "version": "1.0.0"
+}
