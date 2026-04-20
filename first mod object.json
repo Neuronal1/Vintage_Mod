@@ -1,0 +1,101 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"OIP": "/Users/audri/OneDrive/Pictures/OIP",
+		"gold-texture-8": "/Users/audri/OneDrive/Pictures/Vintagestory/gold-texture-8"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [ 1.0, 14.0, 1.0 ],
+			"to": [ 15.0, 15.0, 15.0 ],
+			"rotationOrigin": [ 1.0, 9.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#OIP", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0], "reflectiveMode": 3 },
+				"east": { "texture": "#OIP", "uv": [ 0.0, 0.0938, 14.0, 1.0938 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0], "reflectiveMode": 3 },
+				"south": { "texture": "#OIP", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1], "reflectiveMode": 3 },
+				"west": { "texture": "#OIP", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1], "reflectiveMode": 3 },
+				"up": { "texture": "#OIP", "uv": [ 0.0, 0.0, 14.0, 14.0 ] },
+				"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 14.0, 14.0 ] }
+			}
+		},
+		{
+			"name": "Cube2",
+			"from": [ 1.0, 0.0, 1.0 ],
+			"to": [ 3.0, 14.0, 3.0 ],
+			"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+			"faces": {
+				"north": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+				"east": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+				"up": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ 12.0, 0.0, 0.0 ],
+					"to": [ 14.0, 14.0, 2.0 ],
+					"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"east": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"west": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"up": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "Cube4",
+					"from": [ 0.0, 0.0, 12.0 ],
+					"to": [ 2.0, 14.0, 14.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 12.0 ],
+					"faces": {
+						"north": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"east": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"west": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"up": { "texture": "#null", "uv": [ 5.0, 4.5, 7.0, 6.5 ] },
+						"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "Cube5",
+					"from": [ 12.0, 0.0, 12.0 ],
+					"to": [ 14.0, 14.0, 14.0 ],
+					"rotationOrigin": [ 12.0, 0.0, 12.0 ],
+					"faces": {
+						"north": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"east": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"west": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 14.0 ] },
+						"up": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "plate2",
+			"from": [ 0.0, 15.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"rotationOrigin": [ 0.0, 10.0, 0.0 ],
+			"faces": {
+				"north": { "texture": "#gold-texture-8", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#gold-texture-8", "uv": [ 0.0, 0.0938, 16.0, 1.0938 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"south": { "texture": "#gold-texture-8", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#gold-texture-8", "uv": [ 0.0, 0.0, 16.0, 1.0 ], "glow": 100, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#OIP", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+				"down": { "texture": "#OIP", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		}
+	]}
