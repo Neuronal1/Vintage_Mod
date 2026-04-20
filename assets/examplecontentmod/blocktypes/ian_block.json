@@ -1,12 +1,9 @@
 {
 	"code": "ianblock",
 	"creativeinventory": { "general": ["*"] },
-	"shape": { "base": "game:block/basic/cube" },
-	"blockmaterial": "Stone",
-	"drawtype": "Cube",
-	"textures": {
-		"all": { "base": "block/ian_texture" }
-	},
+	"shape": { "base": "first mod object.json" },
+	"sidesolid":{ "all":  false},
+	"sideopaque":{ "all":  false},
 	"resistance": 3.5,
 	"sounds": {
 		"place": "game:block/anvil",
