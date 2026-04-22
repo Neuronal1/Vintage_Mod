@@ -1,7 +1,7 @@
 {
 	"code": "neringablock",
 	"creativeinventory": { "general": ["*"] },
-	"shape": { "base": "black-adult.json" },
+	"shape": { "base": "Holzpropeller 1.json" },
 	"sidesolid":{ "all":  false},
 	"sideopaque":{ "all":  false},
 	"resistance": 3.5,
