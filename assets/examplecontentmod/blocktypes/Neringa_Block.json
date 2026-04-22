@@ -1,0 +1,12 @@
+{
+	"code": "neringablock",
+	"creativeinventory": { "general": ["*"] },
+	"shape": { "base": "black-adult.json" },
+	"sidesolid":{ "all":  false},
+	"sideopaque":{ "all":  false},
+	"resistance": 3.5,
+	"sounds": {
+		"place": "game:block/iron_door",
+		"walk": "game:walk/stone"
+	}
+}
