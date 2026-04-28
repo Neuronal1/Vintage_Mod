@@ -6,7 +6,7 @@
 	"sideopaque":{ "all":  false},
 	"resistance": 3.5,
 	"sounds": {
-		"place": "game:block/iron_door",
+		"place": "game:block/dooropen",
 		"walk": "game:walk/stone"
 	}
 }
