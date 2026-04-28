@@ -310,7 +310,7 @@
 			"code": "animation1",
 			"quantityframes": 30,
 			"onActivityStopped": "EaseOut",
-			"onAnimationEnd": "Stop",
+			"onAnimationEnd": "Repeat",
 			"keyframes": [
 				{
 					"frame": 1,
